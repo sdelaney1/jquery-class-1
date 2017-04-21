@@ -1,0 +1,36 @@
+.sandwich,
+.lettuce,
+.cheese,
+.tomato {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.sandwich {
+    position: relative;
+    width: 400px;
+}
+
+.lettuce {
+    width: 100%;
+    height: 20px;
+    background-color: darkgreen;
+}
+
+.cheese {
+    top: 20px;
+    width: 100%;
+    height: 20px;
+    background-color: yellow;
+}
+
+.tomato {
+    top: 40px;
+    width: 100%;
+    height: 20px;
+    background-color: darkred;
+}
+
